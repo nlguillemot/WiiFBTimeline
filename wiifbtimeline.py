@@ -38,10 +38,7 @@ def create_cover(thumbnail_filenames):
 
 	i = 0
 	for y in range(grid_height):
-		for x in range(grid_width):
-			if x == 0 and y == 0:
-				continue
-
+		for x in range(1, grid_width):
 			if i < len(thumbnail_filenames):
 				currTile = Image.new('RGB', (tile_width, tile_height))
 				thumb = Image.open(thumbnail_filenames[i])
