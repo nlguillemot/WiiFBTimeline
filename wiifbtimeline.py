@@ -51,7 +51,6 @@ def create_cover(thumbnail_filenames):
 			i += 1
 
 	newImage.paste(foregroundImage, (0,0), foregroundImage)
-	newImage.show()
 
 	return newImage
 
