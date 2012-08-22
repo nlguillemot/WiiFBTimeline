@@ -5,5 +5,7 @@ Script to generate a facebook timeline cover that looks like the Wii main menu. 
 
 See example.sh in the example/ folder for an example use.
 
+Depends on the python imaging library (PIL)
+
 Here is a sample output:
 ![Example](http://i.imgur.com/mY4Py.png)
