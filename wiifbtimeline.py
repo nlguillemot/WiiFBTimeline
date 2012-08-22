@@ -9,8 +9,10 @@ def main():
 		print 'usage: %s <output filename> <input thumbnails...>' % sys.argv[0]
 		return
 
+	print 'Creating cover photo from images: %s' % sys.argv[2:]
 	img = create_cover(sys.argv[2:])
 
+	print 'Saving generated cover photo as %s' % sys.argv[1]
 	img.save(sys.argv[1])
 
 # throws IOError if any files fail to open
