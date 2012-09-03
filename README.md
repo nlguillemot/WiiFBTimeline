@@ -8,4 +8,4 @@ See example.sh in the example/ folder for an example use.
 Depends on the python imaging library (PIL)
 
 Here is a sample output:
-![Example](http://i.imgur.com/mY4Py.png)
+![Example](http://i.imgur.com/NhVhT.png)
